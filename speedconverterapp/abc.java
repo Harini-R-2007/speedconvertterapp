@@ -12,7 +12,7 @@ System.out.println("5. mph to m/s");
 System.out.println("6. mph to km/h");
 System.out.println("Enter your choice(1-6):");
 int choice=scanner.nextInt();
-System.out.print("Enter the speed value:");
+System.out.print("Enter the speed valuse:");
 double speed=scanner.nextDouble();
 sp converter=new sp(speed);
 switch(choice){
